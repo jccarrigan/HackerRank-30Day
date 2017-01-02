@@ -1,0 +1,11 @@
+i = 4
+d = 4.0
+s = 'HackerRank '
+
+i_input = int(raw_input())
+d_input = float(raw_input())
+s_input = raw_input()
+
+print i + i_input
+print d + d_input
+print s + s_input
