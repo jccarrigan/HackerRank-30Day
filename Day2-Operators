@@ -1,0 +1,14 @@
+mealCost = input()
+tipPercent = input()
+taxPercent = input()
+
+tip = mealCost * tipPercent * 0.01
+tax = mealCost * taxPercent * 0.01
+
+totalCost = int(round(mealCost + tip + tax))
+
+#print totalCost
+#print tip
+#print tax
+
+print "The total meal cost is %s dollars." % totalCost
