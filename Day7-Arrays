@@ -1,0 +1,14 @@
+n = input()
+arr_in = map(int, raw_input().split())
+arr_out = []
+
+for i in range(1, n + 1):
+    arr_out.append(arr_in[-i])
+list = []
+for j in arr_out:
+    list.append(str(j))
+
+out = ''
+out = ' '.join(list)
+
+print out
