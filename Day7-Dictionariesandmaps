@@ -1,0 +1,14 @@
+my_dict= {}
+for _ in range(input()):
+    inp = raw_input().split()
+    my_dict[inp[0]] = inp[1]
+
+condition = True
+while condition:
+    query = raw_input()
+    if query == None:
+        condition = False
+    elif query in my_dict:
+        print '%s=%s' % (query, my_dict[query])
+    else:
+        print 'Not found'
